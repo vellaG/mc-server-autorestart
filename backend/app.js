@@ -30,7 +30,7 @@ function startserver() {
         })
     })
 
-    //handle server shutdown and restart
+    //handle automatic server shutdown and restart
     subprocess.on('exit',(code,signal)=>{
         startserver()
     })
