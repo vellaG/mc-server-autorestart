@@ -5,8 +5,8 @@ const fs = require('fs');
 
 // --settings--
 const minMemory = '256M'
-const maxMemory = '1G'
-const workingDirectory = '/home/kale/minecraft-servers/server-25565'
+const maxMemory = '1024M'
+const workingDirectory = '/directory/to/server/folder' 
 
 const consoleFile = './live-output.txt'
 
