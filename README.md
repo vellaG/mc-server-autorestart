@@ -24,7 +24,7 @@ const workingDirectory = '/directory/to/server/folder' //Set the directory where
 pm2 start app.js
 ```
 
-##Note
+## Note
 If you desire for the server to start everytime your linux machine reboots, use
 ```
 pm2 save
